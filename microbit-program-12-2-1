@@ -1,0 +1,12 @@
+{
+     const times : number = randint(0, 15)
+     let counter : number = 0
+
+     while (counter < times) {
+         basic.showIcon(IconNames.Butterfly)
+         basic.pause(200)
+         basic.clearScreen()
+         basic.pause(200)
+     }
+ 
+}
